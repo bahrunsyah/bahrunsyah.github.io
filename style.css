@@ -1,0 +1,26 @@
+.song-play-area {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  background-color: #262626;
+  padding: 15px 30px 20px;
+  border: 1px solid #363636; }
+  .song-play-area .song-name p {
+    color: #b8b8b8;
+    margin-bottom: 5px; }
+  .song-play-area .audioplayer {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    background: transparent; }
+  .song-play-area .audioplayer-playing .audioplayer-playpause,
+  .song-play-area .audioplayer:not(.audioplayer-playing) .audioplayer-playpause:hover,
+  .song-play-area .audioplayer:not(.audioplayer-playing) .audioplayer-playpause {
+    background: #fff; }
+  .song-play-area .audioplayer-time {
+    font-size: 14px;
+    color: #fff; }
