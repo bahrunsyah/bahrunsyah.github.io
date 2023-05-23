@@ -2,9 +2,9 @@
   position: relative;
   z-index: 1;
   width: 100%;
-  background-color: #262626;
+  background-color: transparent;
   padding: 15px 30px 20px;
-  border: 1px solid #363636; }
+  border: 0px solid #363636; }
   .song-play-area .song-name p {
     color: #b8b8b8;
     margin-bottom: 5px; }
